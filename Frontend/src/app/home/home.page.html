@@ -1,0 +1,33 @@
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h2 class="title">e-Budget APP</h2>
+
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col align-self-center size="10" offset="1">
+        <ion-button class="glow-on-hover" [routerLink]="['/register']" expand="block" shape="round" color="primary"
+          size="large">Register
+        </ion-button>
+
+        <span class="divider line one-line">or</span>
+
+        <span class="already">Already a user?</span>
+
+        <ion-button class="glow-on-hover" [routerLink]="['/login']" expand="block" shape="round" color="danger"
+          size="large">
+          Sign In
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <p class="copyright">&copy; 2020-2021</p>
+        <p class="by-author">By Sergio Pi.</p>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

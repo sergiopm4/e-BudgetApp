@@ -1,0 +1,44 @@
+
+ion-content{
+    --background: url('../../assets/background-ionic.png') no-repeat 100% 100%;
+    
+}
+.title{
+        margin-top: 60px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: blueviolet;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Indie Flower', cursive;
+}
+
+ion-item{
+    margin: 15px;
+    --ion-background-color:transparent!important;
+}
+
+ion-input{
+    color: blueviolet;
+}
+
+.forgot{
+    font-family: 'Indie Flower', cursive;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.padding{
+    padding:5px;
+}
+    
+.flex{
+    display: flex;
+}
+
+ion-button{
+    text-transform: none;
+    font-size: 16px;
+    margin-top: 20px;
+}

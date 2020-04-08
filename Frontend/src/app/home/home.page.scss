@@ -1,0 +1,87 @@
+
+ion-content{
+    --background: url('../../assets/background-ionic.png') no-repeat 100% 100%;
+    
+}
+
+$color:(
+    appcolor: blueviolet
+);
+
+.divider {
+    display: flex;
+    color: black;
+    
+    &:before,
+    &:after {
+      content: "";
+      flex: 1;
+    }
+}
+
+.title{
+    margin-top: 60px;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+.copyright{
+    margin-top: 60px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+.by-author{
+    text-align: center;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+.line {
+    align-items: center;
+    margin: 1em -1em;
+    color: rgba(115, 115, 195, 0.829);
+    
+    &:before,
+    &:after {
+      height: 1px;
+      margin: 0 1em;
+    }
+} 
+
+.one-line {
+    &:before,
+    &:after {
+       background:rgba(115, 115, 195, 0.829);
+    }
+}
+
+.auth-form ion-grid,
+.auth-form ion-row {
+    height:55%;
+    justify-content: center;
+}
+
+.already {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+ion-button{
+    text-transform: none;
+    font-size: 16px;
+}
+
+
+//button animation.
+

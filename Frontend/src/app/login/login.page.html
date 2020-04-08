@@ -1,0 +1,27 @@
+<ion-content>
+  <ion-grid>
+    <ion-row class="align-self-center">
+      <ion-col size="10" offset="1">
+        <div text-center>
+          <h3 class="title">e-Budget APP</h3>
+        </div>
+        <form class="list-form" [formGroup]="loginForm" (ngSubmit)="login()">
+          <ion-item>
+            <ion-label color="light">Email</ion-label>
+            <ion-input placeholder="Insert your email" type="email" formControlName="email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="light">Pass</ion-label>
+            <ion-input placeholder="Insert your pass" type="password" formControlName="password"></ion-input>
+          </ion-item>
+          <ion-button type="submit" size="large" expand="block" shape="round" color="primary">Sign in
+          </ion-button>
+
+        </form>
+        <p text-right ion-text color="secondary" tappable class="forgot"><strong>Forgot Password?</strong></p>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
