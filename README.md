@@ -3,7 +3,7 @@
 <img src="https://res.cloudinary.com/dzj7gaftg/image/upload/v1586337654/api/logo-pge_s1exnz.jpg" height="150">
 
 # Project Name
-> MEDIA-APP
+> e-BudgetApp
 
 ## Table of contents
 * [General info](#general-info)
