@@ -31,8 +31,9 @@ e-BudgetApp tries to be an easy mobileApp to use, that helps to have all your in
 * Front end - IONIC 4
 
 ## Features
-* Register and Login
-* Provide useful information about your incomes and expenses
+* Register and Login.
+* Provide useful information about your incomes and expenses.
+* DRAG & DROP, useful UX.
 * Easy drag and drop experience, creating and editing your money flows.
 
 ## Author
