@@ -21,6 +21,10 @@ e-BudgetApp tries to be an easy mobileApp to use, that helps to have all your in
 
 ![Example main view](https://res.cloudinary.com/dzj7gaftg/image/upload/v1586337280/api/login-pge_q02fjq.jpg)
 
+![Example main view](https://res.cloudinary.com/dzj7gaftg/image/upload/v1586429095/api/dragfirst-pge_fvfpxu.jpg)
+
+![Example main view](https://res.cloudinary.com/dzj7gaftg/image/upload/v1586429028/api/drag-pge_izch3t.jpg)
+
 ## Technologies
 * Database - MongoDB
 * Back end - NodeJS & Express 
